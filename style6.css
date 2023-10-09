@@ -1,0 +1,46 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: fantasy;
+  background: url(laptop.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+ 
+h1 {
+  font-size: 3rem;
+  color: #c91699;
+}
+
+hr {
+  border-color: palevioletred;
+  border-width: 0.55rem;
+
+}
+
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-info{
+  background-color: #00407f;
+  border-color: #00407f;
+
+}
+
+.btn-info:hover {
+  background-color: #c91699;
+  border-color: ##c91699;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNV
